@@ -42,9 +42,6 @@ const Navbar = () => {
             </div>
             <div className="navbar-end">
                 <div className="mr-3">
-                    {
-                        user && user.email
-                    }
                     <img className="w-11 rounded-full" src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
                 </div>
                 {
